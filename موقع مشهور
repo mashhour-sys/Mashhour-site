@@ -1,0 +1,375 @@
+اريد دمج هذا
+في صفحتي الشخصية
+
+<!DOCTYPE html>  <html lang="ar" dir="rtl">    <head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>درعا 2025 - هوية استثمارية جديدة</title>    
+    <script src="https://cdn.tailwindcss.com"></script>    
+    <style>    
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap');  * {    
+        font-family: 'Cairo', sans-serif;    
+    }    .gradient-bg {    
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);    
+}    
+    
+.card-hover {    
+    transition: all 0.3s ease;    
+}    
+    
+.card-hover:hover {    
+    transform: translateY(-5px);    
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);    
+}    
+    
+.section-fade {    
+    opacity: 0;    
+    transform: translateY(30px);    
+    transition: all 0.6s ease;    
+}    
+    
+.section-fade.visible {    
+    opacity: 1;    
+    transform: translateY(0);    
+}    
+    
+.progress-bar {    
+    width: 0%;    
+    transition: width 0.8s ease;    
+}    
+    
+.icon-bounce {    
+    animation: bounce 2s infinite;    
+}    
+    
+@keyframes bounce {    
+    0%, 20%, 50%, 80%, 100% {    
+        transform: translateY(0);    
+    }    
+    40% {    
+        transform: translateY(-10px);    
+    }    
+    60% {    
+        transform: translateY(-5px);    
+    }    
+}    
+    
+.floating {    
+    animation: float 3s ease-in-out infinite;    
+}    
+    
+@keyframes float {    
+    0% { transform: translateY(0px); }    
+    50% { transform: translateY(-10px); }    
+    100% { transform: translateY(0px); }    
+}
+
+</style>  </head>    
+<body class="bg-gray-50">    
+    <!-- Navigation -->    
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 shadow-sm">    
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">    
+            <div class="flex justify-between items-center h-16">    
+                <div class="flex items-center space-x-4 space-x-reverse">    
+                    <div class="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">    
+                        <span class="text-white font-bold text-lg">د</span>    
+                    </div>    
+                    <span class="font-bold text-xl text-gray-800">درعا 2025</span>    
+                </div>    
+                <div class="hidden md:flex space-x-8 space-x-reverse">    
+                    <a href="#vision" class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer">الرؤية</a>    
+                    <a href="#goals" class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer">الأهداف</a>    
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer">المشاريع</a>    
+                    <a href="#advantages" class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer">المزايا</a>    
+                </div>    
+            </div>    
+        </div>    
+    </nav>  <!-- Hero Section -->    
+<section class="gradient-bg min-h-screen flex items-center justify-center relative overflow-hidden">    
+    <div class="absolute inset-0 bg-black/20"></div>    
+    <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">    
+        <div class="floating">    
+            <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">    
+                درعا 2025    
+            </h1>    
+            <h2 class="text-2xl md:text-3xl font-semibold mb-8 text-blue-100">    
+                هوية استثمارية جديدة    
+            </h2>    
+        </div>    
+        <p class="text-xl md:text-2xl mb-12 leading-relaxed text-gray-100">    
+            خارطة طريق للتنمية الذكية والمستدامة    
+        </p>    
+        <button onclick="scrollToSection('vision')" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg">    
+            استكشف الرؤية    
+        </button>    
+    </div>    
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 icon-bounce">    
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>    
+        </svg>    
+    </div>    
+</section>    <!-- Vision Section -->    <section id="vision" class="py-20 bg-white">    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">    
+        <div class="text-center mb-16 section-fade">    
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">الرؤية</h2>    
+            <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>    
+        </div>    <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 md:p-12 section-fade">    
+        <div class="text-center">    
+            <div class="w-20 h-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-8">    
+                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>    
+                </svg>    
+            </div>    
+            <p class="text-xl md:text-2xl leading-relaxed text-gray-700 font-medium">    
+                تحويل درعا إلى <span class="text-blue-600 font-bold">منطقة ابتكار ريفي</span>، تجمع بين الإنتاج الزراعي المتطور، والصناعات الطبية الحيوية، والطاقة المتجددة، ضمن بيئة محفزة للاستثمار المحلي والعربي.    
+            </p>    
+        </div>    
+    </div>    
+</div>
+
+</section>    <!-- Goals Section -->    <section id="goals" class="py-20 bg-gray-50">    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">    
+        <div class="text-center mb-16 section-fade">    
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">الأهداف الاستراتيجية</h2>    
+            <div class="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-600 mx-auto mb-8"></div>    
+        </div>    <div class="grid md:grid-cols-3 gap-8">    
+        <div class="bg-white rounded-2xl p-8 card-hover section-fade shadow-lg">    
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">    
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>    
+                </svg>    
+            </div>    
+            <h3 class="text-xl font-bold text-gray-800 mb-4">الأمن الغذائي</h3>    
+            <p class="text-gray-600 leading-relaxed">تعزيز الأمن الغذائي من خلال مجمعات غذائية زراعية متطورة</p>    
+            <div class="mt-6 bg-green-100 rounded-full h-2">    
+                <div class="progress-bar bg-green-500 h-2 rounded-full" data-width="85"></div>    
+            </div>    
+        </div>    
+            
+        <div class="bg-white rounded-2xl p-8 card-hover section-fade shadow-lg">    
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">    
+                <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z"></path>    
+                </svg>    
+            </div>    
+            <h3 class="text-xl font-bold text-gray-800 mb-4">الصناعات الطبية</h3>    
+            <p class="text-gray-600 leading-relaxed">إطلاق حاضنة صناعات طبية بيولوجية بالشراكة مع الكفاءات السورية</p>    
+            <div class="mt-6 bg-blue-100 rounded-full h-2">    
+                <div class="progress-bar bg-blue-500 h-2 rounded-full" data-width="70"></div>    
+            </div>    
+        </div>    
+            
+        <div class="bg-white rounded-2xl p-8 card-hover section-fade shadow-lg">    
+            <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6">    
+                <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>    
+                </svg>    
+            </div>    
+            <h3 class="text-xl font-bold text-gray-800 mb-4">الطاقة المتجددة</h3>    
+            <p class="text-gray-600 leading-relaxed">إنشاء مشروع طاقة شمسية يدعم المنطقة الحرة شرق الأوتوستراد</p>    
+            <div class="mt-6 bg-yellow-100 rounded-full h-2">    
+                <div class="progress-bar bg-yellow-500 h-2 rounded-full" data-width="90"></div>    
+            </div>    
+        </div>    
+    </div>    
+</div>
+
+</section>    <!-- Projects Section -->    <section id="projects" class="py-20 bg-white">    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">    
+        <div class="text-center mb-16 section-fade">    
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">المشاريع المقترحة</h2>    
+            <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-8"></div>    
+        </div>    <div class="space-y-8">    
+        <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 section-fade">    
+            <div class="flex flex-col md:flex-row items-center">    
+                <div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mb-6 md:mb-0 md:ml-8">    
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>    
+                    </svg>    
+                </div>    
+                <div class="flex-1 text-center md:text-right">    
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">المجمع الغذائي الزراعي</h3>    
+                    <p class="text-gray-600 text-lg leading-relaxed">تجهيزات متطورة للتخزين والتعبئة والتسويق مع أحدث التقنيات الزراعية</p>    
+                </div>    
+            </div>    
+        </div>    
+            
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 section-fade">    
+            <div class="flex flex-col md:flex-row items-center">    
+                <div class="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mb-6 md:mb-0 md:ml-8">    
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>    
+                    </svg>    
+                </div>    
+                <div class="flex-1 text-center md:text-right">    
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الحاضنة الطبية البيولوجية</h3>    
+                    <p class="text-gray-600 text-lg leading-relaxed">مختبرات وأبحاث متخصصة، تدريب كوادر محلية مع الكفاءات السورية بالخارج</p>    
+                </div>    
+            </div>    
+        </div>    
+            
+        <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-8 section-fade">    
+            <div class="flex flex-col md:flex-row items-center">    
+                <div class="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center mb-6 md:mb-0 md:ml-8">    
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>    
+                    </svg>    
+                </div>    
+                <div class="flex-1 text-center md:text-right">    
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الطاقة الشمسية للمنطقة الحرة</h3>    
+                    <p class="text-gray-600 text-lg leading-relaxed">بنية تحتية للطاقة المستدامة تدعم التطوير الاقتصادي</p>    
+                </div>    
+            </div>    
+        </div>    
+    </div>    
+</div>
+
+</section>    <!-- Advantages Section -->    <section id="advantages" class="py-20 bg-gray-50">    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">    
+        <div class="text-center mb-16 section-fade">    
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">الميزة التنافسية</h2>    
+            <div class="w-24 h-1 bg-gradient-to-r from-red-500 to-purple-600 mx-auto mb-8"></div>    
+        </div>    <div class="grid md:grid-cols-3 gap-8">    
+        <div class="text-center section-fade">    
+            <div class="w-24 h-24 bg-gradient-to-r from-red-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">    
+                <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>    
+                </svg>    
+            </div>    
+            <h3 class="text-xl font-bold text-gray-800 mb-4">موقع استراتيجي</h3>    
+            <p class="text-gray-600 leading-relaxed">على عقدة طرق إقليمية مهمة تربط بين الأسواق العربية</p>    
+        </div>    
+            
+        <div class="text-center section-fade">    
+            <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-6">    
+                <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>    
+                </svg>    
+            </div>    
+            <h3 class="text-xl font-bold text-gray-800 mb-4">موارد طبيعية</h3>    
+            <p class="text-gray-600 leading-relaxed">موارد مائية وزراعية طبيعية غنية تدعم التنمية المستدامة</p>    
+        </div>    
+            
+        <div class="text-center section-fade">    
+            <div class="w-24 h-24 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full flex items-center justify-center mx-auto mb-6">    
+                <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">    
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>    
+                </svg>    
+            </div>    
+            <h3 class="text-xl font-bold text-gray-800 mb-4">خبرات وعلاقات</h3>    
+            <p class="text-gray-600 leading-relaxed">خبرات محلية متراكمة وعلاقات خارجية نشطة مع المغتربين</p>    
+        </div>    
+    </div>    
+</div>
+
+</section>    <!-- Final Message Section -->    <section class="py-20 gradient-bg relative overflow-hidden">    
+    <div class="absolute inset-0 bg-black/30"></div>    
+    <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">    
+        <div class="section-fade">    
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">الرسالة الختامية</h2>    
+            <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12">    
+                <p class="text-xl md:text-2xl text-white leading-relaxed font-medium">    
+                    الاستثمار ليس فقط <span class="text-yellow-300 font-bold">رأس مال</span>...     
+                    بل <span class="text-blue-300 font-bold">عقل يخطط</span>،     
+                    و<span class="text-green-300 font-bold">بيئة تحفز</span>،     
+                    و<span class="text-pink-300 font-bold">هوية تميز</span>    
+                </p>    
+            </div>    
+            <div class="mt-12">    
+                <button onclick="scrollToTop()" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg">    
+                    العودة للأعلى    
+                </button>    
+            </div>    
+        </div>    
+    </div>    
+</section>    <!-- Footer -->    <footer class="bg-gray-900 text-white py-12">    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">    
+        <div class="flex items-center justify-center space-x-4 space-x-reverse mb-6">    
+            <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">    
+                <span class="text-white font-bold text-xl">د</span>    
+            </div>    
+            <span class="font-bold text-2xl">درعا 2025</span>    
+        </div>    
+        <p class="text-gray-400 text-lg">مستقبل مشرق للتنمية المستدامة والاستثمار الذكي</p>    
+        <div class="mt-8 text-gray-500">    
+            <p>&copy; 2025 درعا - هوية استثمارية جديدة. جميع الحقوق محفوظة.</p>    
+        </div>    
+    </div>    
+</footer>    <script>    
+    // Smooth scrolling    
+    function scrollToSection(sectionId) {    
+        document.getElementById(sectionId).scrollIntoView({    
+            behavior: 'smooth'    
+        });    
+    }    
+        
+    function scrollToTop() {    
+        window.scrollTo({    
+            top: 0,    
+            behavior: 'smooth'    
+        });    
+    }    
+        
+    // Intersection Observer for animations    
+    const observerOptions = {    
+        threshold: 0.1,    
+        rootMargin: '0px 0px -50px 0px'    
+    };    
+        
+    const observer = new IntersectionObserver((entries) => {    
+        entries.forEach(entry => {    
+            if (entry.isIntersecting) {    
+                entry.target.classList.add('visible');    
+                    
+                // Animate progress bars    
+                const progressBars = entry.target.querySelectorAll('.progress-bar');    
+                progressBars.forEach(bar => {    
+                    const width = bar.getAttribute('data-width');    
+                    setTimeout(() => {    
+                        bar.style.width = width + '%';    
+                    }, 300);    
+                });    
+            }    
+        });    
+    }, observerOptions);    
+        
+    // Observe all sections with fade animation    
+    document.querySelectorAll('.section-fade').forEach(section => {    
+        observer.observe(section);    
+    });    
+        
+    // Navigation link clicks    
+    document.querySelectorAll('nav a[href^="#"]').forEach(link => {    
+        link.addEventListener('click', (e) => {    
+            e.preventDefault();    
+            const targetId = link.getAttribute('href').substring(1);    
+            scrollToSection(targetId);    
+        });    
+    });    
+        
+    // Add active state to navigation    
+    window.addEventListener('scroll', () => {    
+        const sections = ['vision', 'goals', 'projects', 'advantages'];    
+        const scrollPos = window.scrollY + 100;    
+            
+        sections.forEach(sectionId => {    
+            const section = document.getElementById(sectionId);    
+            const navLink = document.querySelector(`nav a[href="#${sectionId}"]`);    
+                
+            if (section && navLink) {    
+                const sectionTop = section.offsetTop;    
+                const sectionHeight = section.offsetHeight;    
+                    
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {    
+                    document.querySelectorAll('nav a').forEach(link => {    
+                        link.classList.remove('text-blue-600');    
+                        link.classList.add('text-gray-600');    
+                    });    
+                    navLink.classList.remove('text-gray-600');    
+                    navLink.classList.add('text-blue-600');    
+                }    
+            }    
+        });    
+    });    
+</script>  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96d0d48357668ef2',t:'MTc1NDg0MjkyNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>  </html>
