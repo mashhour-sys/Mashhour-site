@@ -16,7 +16,11 @@
     .icon-bounce{animation:bounce 2s infinite}
     @  79ef69f2c2145670131533b69fd5521ac0ce3a3f  bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-10px)}60%{transform:translateY(-5px)}}
     .floating{animation:float 3s ease-in-out infinite}
-    @keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}
+   @keyframes bounce {
+  0%,20%,50%,80%,100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+} float{0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}
   </style>
 </head><meta name="google-site-verification" content="ygQ0OobilaJavDrEG1CNPzaFOOK4jdCp2HgrD6-f9zk" />
 <body class="bg-gray-50">
